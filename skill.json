@@ -1,0 +1,32 @@
+{
+  "name": "genpark-today-ai-proactive-daily-agenda-synthesizer-skill",
+  "version": "1.0.0",
+  "description": "Proactive daily agenda and cognitive briefing synthesizer for personal agents (inspired by Today.ai), orchestrating circadian energy focus blocks, asynchronous task triage, and meeting prep.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "personal-agent",
+    "today-ai",
+    "agenda-synthesizer",
+    "circadian-scheduler",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "ingest_daily_signals",
+      "description": "Ingest calendar events, asynchronous tasks, and energy profiles."
+    },
+    {
+      "name": "synthesize_proactive_schedule",
+      "description": "Synthesize optimal chronobiological schedule with deep work blocks."
+    },
+    {
+      "name": "generate_morning_briefing",
+      "description": "Compile executive morning briefing audio/text brief."
+    },
+    {
+      "name": "run_today_ai_benchmark",
+      "description": "Run Today AI agenda synthesis benchmark."
+    }
+  ]
+}
